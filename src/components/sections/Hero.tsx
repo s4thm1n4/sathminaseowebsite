@@ -74,8 +74,8 @@ export const Hero: React.FC = () => {
               <div className="text-center mb-8">
                 <h3 className="text-2xl font-bold text-white mb-3">A message from our founder</h3>
                 <p className="text-slate-300 leading-relaxed">
-                  Hi, I'm Sathimina, the founder of SathminaSEO. I started this journey with a 
-                  simple vision: to create Sri Lanka's #1 specialist SEO agency.
+                  Hi, I&apos;m Sathimina, the founder of SathminaSEO. I started this journey with a 
+                  simple vision: to create Sri Lanka&apos;s #1 specialist SEO agency.
                 </p>
               </div>
               

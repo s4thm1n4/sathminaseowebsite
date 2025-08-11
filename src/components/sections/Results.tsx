@@ -68,10 +68,10 @@ export const Results: React.FC = () => {
         {/* Case Studies */}
         <div className="text-center mb-20">
           <h2 className="text-4xl md:text-6xl font-black mb-8">
-            <span className="text-gradient">Client Results</span> for Sri Lanka's biggest brands
+            <span className="text-gradient">Client Results</span> for Sri Lanka&apos;s biggest brands
           </h2>
           <p className="text-xl text-slate-300 max-w-4xl mx-auto leading-relaxed">
-            By rewriting the SEO playbook, we're working with brands to surpass their goals 
+            By rewriting the SEO playbook, we&apos;re working with brands to surpass their goals 
             with impactful, sustainable organic growth.
           </p>
         </div>
@@ -112,7 +112,7 @@ export const Results: React.FC = () => {
 
         {/* Client Logos */}
         <div className="text-center">
-          <p className="text-slate-300 mb-12 text-lg">Trusted by Sri Lanka's leading organizations</p>
+          <p className="text-slate-300 mb-12 text-lg">Trusted by Sri Lanka&apos;s leading organizations</p>
           <div className="flex flex-wrap justify-center items-center gap-8 opacity-60">
             {[1,2,3,4,5].map((i) => (
               <div key={i} className="premium-card w-36 h-20 flex items-center justify-center text-slate-400 hover:text-slate-300 transition-colors duration-300">

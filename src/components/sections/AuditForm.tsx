@@ -41,7 +41,7 @@ export const AuditForm: React.FC = () => {
             Get Your <span className="text-gradient">Free SEO Masterplan</span>
           </h2>
           <p className="text-xl text-slate-300 max-w-4xl mx-auto leading-relaxed">
-            100% value, 0% obligation. We'll analyze your website and provide actionable insights 
+            100% value, 0% obligation. We&apos;ll analyze your website and provide actionable insights 
             to improve your search rankings and organic traffic.
           </p>
         </div>
@@ -152,7 +152,7 @@ export const AuditForm: React.FC = () => {
               </div>
 
               <p className="text-sm text-slate-400 text-center pt-4 leading-relaxed">
-                We'll analyze your website and send you a detailed report within 24 hours.<br/>
+                We&apos;ll analyze your website and send you a detailed report within 24 hours.<br/>
                 <strong className="text-white">No spam, no sales pitches, just valuable insights.</strong>
               </p>
             </form>

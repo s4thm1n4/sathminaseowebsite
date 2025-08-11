@@ -34,7 +34,7 @@ export const About: React.FC = () => {
               Meet our <span className="text-gradient">SEO master craftsmen</span>
             </h2>
             <p className="text-xl text-slate-300 mb-8 leading-relaxed">
-              SathminaSEO are specialist SEO masters and trusted growth partner for Sri Lanka's 
+              SathminaSEO are specialist SEO masters and trusted growth partner for Sri Lanka&apos;s 
               best-loved and fastest-growing brands. Our passionate team is ethical, transparent, 
               and accountable in everything we do.
             </p>
@@ -65,7 +65,7 @@ export const About: React.FC = () => {
         <div className="mt-20">
           <div className="text-center mb-16">
             <h3 className="text-3xl md:text-4xl font-bold mb-6">
-              We drive growth through <span className="text-gradient">'multi-channel strategy'</span>
+              We drive growth through <span className="text-gradient">&apos;multi-channel strategy&apos;</span>
             </h3>
             <p className="text-lg text-slate-300 max-w-3xl mx-auto">
               Ready to soar with SathminaSEO? Our team will be with you every step of the way to create 

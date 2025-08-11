@@ -77,7 +77,7 @@ export const Services: React.FC = () => {
             Our <span className="text-gradient">SEO Superpowers</span>
           </h2>
           <p className="text-xl text-slate-300 max-w-4xl mx-auto leading-relaxed">
-            For us, SEO isn't a side hustle, it's our bread and butter. This means we've mastered what 
+            For us, SEO isn&apos;t a side hustle, it&apos;s our bread and butter. This means we&apos;ve mastered what 
             matters when it comes to high ROI SEO that drives sustainable growth.
           </p>
         </div>
