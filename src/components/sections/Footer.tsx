@@ -1,3 +1,4 @@
+
 import React from 'react'
 
 export const Footer: React.FC = () => {
@@ -40,8 +41,8 @@ export const Footer: React.FC = () => {
               SathminaSEO is a specialized agency dedicated to search engine optimization for Sri Lankan businesses.
             </p>
             <div className="text-slate-300 text-sm">
-              <p className="mb-2">Colombo, Sri Lanka</p>
-              <p className="mb-2">+94 XX XXX XXXX</p>
+              <p className="mb-2">📍 Colombo, Sri Lanka</p>
+              <p className="mb-2">📞 +94 XX XXX XXXX</p>
               <p>✉️ hello@sathminaseo.lk</p>
             </div>
           </div>

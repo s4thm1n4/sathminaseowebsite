@@ -10,6 +10,7 @@ export const Results: React.FC = () => {
     { number: '8', label: 'Years in operation', icon: '📅' },
     { number: '300%', label: 'Average client ROI', icon: '📈' }
   ]
+
   const caseStudies = [
     {
       client: 'E-commerce Fashion Brand',
