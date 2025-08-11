@@ -12,7 +12,7 @@ const config: Config = {
         brand: {
           purple: {
             900: '#4c1d95',
-            800: '#5b21b6',
+            800: '#5b21b6', 
             700: '#6d28d9',
           },
           orange: {
@@ -26,9 +26,11 @@ const config: Config = {
       },
       animation: {
         'pulse-dot': 'pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+        'float': 'float 6s ease-in-out infinite',
       },
     },
   },
   plugins: [],
 }
+
 export default config
