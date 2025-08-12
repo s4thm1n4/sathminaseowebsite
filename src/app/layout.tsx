@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     description: 'Professional SEO services for Sri Lankan businesses.',
   },
   robots: {
-    index: false,
+    index: true,
     follow: true,
   },
 }
