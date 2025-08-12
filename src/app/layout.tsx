@@ -9,7 +9,7 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
-  title: 'Sathimina SEO - Sri Lanka\'s Premier SEO Specialist',
+  title: 'Sathimina SEO Services - Sri Lanka\'s Premier SEO Specialist',
   description: 'No generalists here, just an SEO specialist. Professional SEO services for Sri Lankan businesses. Get your free SEO audit today.',
   keywords: ['SEO Sri Lanka', 'SEO specialist', 'search engine optimization', 'digital marketing Sri Lanka'],
   authors: [{ name: 'Sathimina SEO' }],
