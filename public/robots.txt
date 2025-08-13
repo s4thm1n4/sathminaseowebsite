@@ -1,0 +1,40 @@
+# Robots.txt for SathminaSEO - Professional SEO Specialist Sri Lanka
+# Website: https://seoservicessrilanka.com
+# Contact: sathminadimath@gmail.com
+
+# Allow all search engines to crawl the site
+User-agent: *
+Allow: /
+
+# Block access to admin and private areas
+Disallow: /admin/
+Disallow: /dashboard/
+Disallow: /_next/
+Disallow: /api/
+Disallow: /.well-known/
+
+# Block common non-essential files for better crawl budget
+Disallow: /search/
+Disallow: /*?*
+Disallow: /thank-you/
+Disallow: /404/
+Disallow: /500/
+
+# Allow important SEO resources
+Allow: /images/
+Allow: /css/
+Allow: /js/
+Allow: /*.css
+Allow: /*.js
+Allow: /*.png
+Allow: /*.jpg
+Allow: /*.jpeg
+Allow: /*.webp
+Allow: /*.svg
+
+
+
+
+
+# Sitemap location 
+
