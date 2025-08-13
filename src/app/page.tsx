@@ -10,8 +10,8 @@ import { FAQ } from '@/components/sections/FAQ'
 import { Footer } from '@/components/sections/Footer'
 
 export const metadata: Metadata = {
-  title: 'SEO Services Sri Lanka | Sathmina Dissanayake - SEO Specialist',
-  description: 'Looking for SEO services in Sri Lanka? Hire Sathmina, a dedicated SEO specialist delivering 973%+ growth. No middlemen, just results. WhatsApp for free consultation.',
+  title: 'SEO Specialist Services Sri Lanka | Sathmina SEO - SEO Specialist Sri Lanka',
+  description: 'Looking for SEO Specialist in Sri Lanka? Hire Sathmina, a dedicated SEO specialist delivering 973%+ growth. No middlemen, just results. WhatsApp for free consultation.',
   keywords: [
     'SEO Services Sri Lanka',
     'SEO Specialist Sri Lanka', 
