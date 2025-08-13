@@ -21,13 +21,13 @@ export const Hero: React.FC = () => {
             {/* H1 Badge - Visually Small but Semantically H1 for SEO */}
             <h1 className="inline-flex items-center gap-3 premium-card px-8 py-4 group text-base font-semibold tracking-wide">
               <div className="w-3 h-3 bg-gradient-to-r from-orange-400 to-orange-600 rounded-full animate-pulse"></div>
-              <span className="text-purple-300">SEO Specialist Sri Lanka</span>
+              <span className="text-purple-300">SEO Specialist Services Sri Lanka</span>
             </h1>
 
             {/* Main Visual Heading */}
             <div className="space-y-6">
               <h2 className="text-4xl md:text-5xl xl:text-6xl font-black leading-tight">
-                No Middleman. No Ghosting.<br/>
+               
                 Hire a dedicated{' '}
                 <span className="text-gradient relative">
                   SEO Specialist
@@ -37,7 +37,7 @@ export const Hero: React.FC = () => {
               </h2>
               
               <p className="text-xl md:text-2xl text-slate-300 leading-relaxed max-w-2xl">
-                <span className="text-purple-300 font-medium">One-on-one service, no outsourcing.</span> Clear, honest reporting. No contracts—just results for your Sri Lankan business.
+                <span className="text-purple-300 font-medium">One-on-one service, no outsourcing.</span> Clear, honest reporting. No contracts-just results for your Sri Lankan business.
               </p>
 
               {/* Global Reach */}
@@ -91,11 +91,11 @@ export const Hero: React.FC = () => {
                 onClick={() => window.open('https://wa.me/+94725221722', '_blank')}
                 className="flex items-center gap-3"
               >
-                💬 WhatsApp for Free SEO Audit
+                🚀 Free SEO Masterplan
               </Button>
               <Button variant="secondary" size="lg">
                 <span className="flex items-center gap-2">
-                  📊 View My Results
+                  📊 View My Results <br></br>
                 </span>
               </Button>
             </div>
@@ -107,7 +107,7 @@ export const Hero: React.FC = () => {
               <div className="text-center mb-8">
                 <h3 className="text-2xl font-bold text-white mb-3">A message from Sathmina Dissanayake</h3>
                 <p className="text-slate-300 leading-relaxed text-left">
-                  Hi, I'm <strong className="text-orange-400">Sathmina</strong>. I founded SathminaSEO to be Sri Lanka's #1 freelance specialist SEO consultancy, cutting through the noise of generalist agencies.
+                  Hi, I&apos;m <strong className="text-orange-400">Sathmina</strong>. I founded SathminaSEO to be Sri Lanka&apos;s #1 freelance specialist SEO consultancy, cutting through the noise of generalist agencies.
                   <br/><br/>
                   <span className="text-purple-300">I provide more cost-effective services with better quality</span> because you work directly with me—no middlemen, no junior staff, no outsourcing.
                 </p>
@@ -132,7 +132,7 @@ export const Hero: React.FC = () => {
                   className="w-full group-hover:scale-105 transition-transform duration-300" 
                   onClick={() => window.open('https://wa.me/+94725221722', '_blank')}
                 >
-                  📱 Let's Discuss Your SEO Goals
+                  📱 Let&apos;s Discuss Your SEO Goals
                 </Button>
                 
                 {/* Clickable Contact Links with Icons */}
