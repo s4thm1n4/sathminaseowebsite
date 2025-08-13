@@ -2,6 +2,7 @@ import { Metadata } from 'next'
 import { ContactBar } from '@/components/sections/ContactBar'
 import { Header } from '@/components/sections/Header'
 import { Hero } from '@/components/sections/Hero'
+import { Companies } from '@/components/sections/Companies'
 import { Services } from '@/components/sections/Services'
 import { Results } from '@/components/sections/Results'
 import { About } from '@/components/sections/About'
@@ -55,6 +56,7 @@ export default function Home() {
       <ContactBar />
       <Header />
       <Hero />
+      <Companies />
       <Services />
       <Results />
       <About />
