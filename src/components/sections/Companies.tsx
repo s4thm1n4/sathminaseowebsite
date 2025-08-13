@@ -13,7 +13,7 @@ export const Companies: React.FC = () => {
     { name: 'VXCore', image: '/images/vxcore.webp' },
     { name: 'Axoten', image: '/images/axoten.webp' },
     { name: 'SoftPlus', image: '/images/softplus.webp' },
-    { name: 'Parallax Digital', image: '/images/parallaxdigital.webp' }
+    { name: 'Parallax Digital', image: '/images/ParallaxDigital.webp' }
   ]
 
   return (

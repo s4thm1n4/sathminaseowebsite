@@ -1,3 +1,4 @@
+
 'use client'
 
 import React, { useState, useEffect } from 'react'
@@ -25,18 +26,21 @@ export const Header: React.FC = () => {
   }
 
   const services = [
-    { name: 'Technical SEO Sri Lanka', href: '#', icon: '⚙️' },
-    { name: 'On-Page SEO Services', href: '#', icon: '✍️' },
-    { name: 'Local SEO Sri Lanka', href: '#', icon: '📍' },
-    { name: 'E-commerce SEO', href: '#', icon: '🛒' },
-    { name: 'SEO Consultations', href: '#', icon: '💡' }
+    { name: 'Foundational SEO', href: '#' },
+    { name: 'Technical SEO Services', href: '#' },
+    { name: 'On-Page SEO Services', href: '#'},
+    { name: 'Local SEO Services', href: '#' },
+    { name: 'Off-Page / Link Building SEO', href: '#' },
+    { name: 'AI SEO', href: '#' },
+    { name: 'SEO Consultations', href: '#' }
   ]
 
   const specialized = [
-    { name: 'Colombo SEO Services', href: '#', icon: '🏙️' },
-    { name: 'WordPress SEO', href: '#', icon: '🔧' },
-    { name: 'Google Analytics Setup', href: '#', icon: '📊' },
-    { name: 'International SEO', href: '#', icon: '🌍' }
+    { name: 'Local SEO Services', href: '#' },
+    { name: 'WordPress SEO Services', href: '#' },
+    { name: 'E-Commerce SEO Services', href: '#'},
+    { name: 'Shopify SEO Services', href: '#', },
+    { name: 'International SEO', href: '#' }
   ]
 
   return (
@@ -81,7 +85,6 @@ export const Header: React.FC = () => {
                   <h3 className="text-lg font-semibold text-white mb-4">SEO Services</h3>
                   {services.map((service, index) => (
                     <a key={index} href={service.href} className="flex items-center gap-3 px-4 py-3 text-slate-300 hover:text-orange-400 hover:bg-white/5 rounded-xl transition-all duration-200 group/item">
-                      <span className="text-xl">{service.icon}</span>
                       <span className="group-hover/item:translate-x-1 transition-transform duration-200">{service.name}</span>
                     </a>
                   ))}
@@ -108,7 +111,6 @@ export const Header: React.FC = () => {
                   <h3 className="text-lg font-semibold text-white mb-4">Specialized SEO</h3>
                   {specialized.map((service, index) => (
                     <a key={index} href={service.href} className="flex items-center gap-3 px-4 py-3 text-slate-300 hover:text-orange-400 hover:bg-white/5 rounded-xl transition-all duration-200 group/item">
-                      <span className="text-xl">{service.icon}</span>
                       <span className="group-hover/item:translate-x-1 transition-transform duration-200">{service.name}</span>
                     </a>
                   ))}
@@ -116,8 +118,8 @@ export const Header: React.FC = () => {
               </div>
             </div>
 
-            <a href="#case-studies" className="text-white/90 hover:text-white font-medium transition-all duration-300 py-2 px-4 rounded-xl hover:bg-white/5">Results</a>
-            <a href="#about" className="text-white/90 hover:text-white font-medium transition-all duration-300 py-2 px-4 rounded-xl hover:bg-white/5">About</a>
+            <a href="#case-studies" className="text-white/90 hover:text-white font-medium transition-all duration-300 py-2 px-4 rounded-xl hover:bg-white/5">Client Results</a>
+            <a href="#about" className="text-white/90 hover:text-white font-medium transition-all duration-300 py-2 px-4 rounded-xl hover:bg-white/5">About Me</a>
             <a href="#contact" className="text-white/90 hover:text-white font-medium transition-all duration-300 py-2 px-4 rounded-xl hover:bg-white/5">Contact</a>
           </nav>
 
@@ -163,8 +165,7 @@ export const Header: React.FC = () => {
                 {activeDropdown === 'mobile-services' && (
                   <div className="mt-2 pl-4 space-y-2">
                     {services.map((service, index) => (
-                      <a key={index} href={service.href} className="flex items-center gap-2 px-3 py-2 text-slate-300 hover:text-orange-400 rounded-lg transition-colors text-sm">
-                        <span>{service.icon}</span>
+                      <a key={index} href={service.href} className="block px-3 py-2 text-slate-300 hover:text-orange-400 rounded-lg transition-colors text-sm">
                         {service.name}
                       </a>
                     ))}
@@ -186,8 +187,7 @@ export const Header: React.FC = () => {
                 {activeDropdown === 'mobile-specialized' && (
                   <div className="mt-2 pl-4 space-y-2">
                     {specialized.map((service, index) => (
-                      <a key={index} href={service.href} className="flex items-center gap-2 px-3 py-2 text-slate-300 hover:text-orange-400 rounded-lg transition-colors text-sm">
-                        <span>{service.icon}</span>
+                      <a key={index} href={service.href} className="block px-3 py-2 text-slate-300 hover:text-orange-400 rounded-lg transition-colors text-sm">
                         {service.name}
                       </a>
                     ))}
@@ -215,3 +215,4 @@ export const Header: React.FC = () => {
     </header>
   )
 }
+
