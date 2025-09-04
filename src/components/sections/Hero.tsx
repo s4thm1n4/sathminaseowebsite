@@ -49,11 +49,12 @@ export const Hero: React.FC = () => {
               >
                 🚀 Free SEO Masterplan
               </Button>
+              <a href="#results">
               <Button variant="secondary" size="lg">
                 <span className="flex items-center gap-2">
                   📊 View My Results
                 </span>
-              </Button>
+              </Button></a>
             </div>
 
             {/* MOBILE ONLY: A message from Sathmina section - WITHOUT contact links */}
