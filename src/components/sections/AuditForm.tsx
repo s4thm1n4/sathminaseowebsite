@@ -26,7 +26,7 @@ export const AuditForm: React.FC = () => {
         <div className="flex justify-center">
           <iframe
             src="https://docs.google.com/forms/d/e/1FAIpQLSewFhzmvovprvi82L4RBsBP4YHY9A2We627y-_M33ldqImKSQ/viewform?embedded=true"
-            width="640"
+            width="300"
             height="1972"
             frameBorder="0"
             marginHeight={0}

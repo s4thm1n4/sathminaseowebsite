@@ -118,7 +118,7 @@ export const Header: React.FC = () => {
               </div>
             </div>
 
-            <a href="#case-studies" className="text-white/90 hover:text-white font-medium transition-all duration-300 py-2 px-4 rounded-xl hover:bg-white/5">Client Results</a>
+            <a href="#results" className="text-white/90 hover:text-white font-medium transition-all duration-300 py-2 px-4 rounded-xl hover:bg-white/5">Client Results</a>
             <a href="#about" className="text-white/90 hover:text-white font-medium transition-all duration-300 py-2 px-4 rounded-xl hover:bg-white/5">About Me</a>
             <a href="#contact" className="text-white/90 hover:text-white font-medium transition-all duration-300 py-2 px-4 rounded-xl hover:bg-white/5">Contact</a>
           </nav>

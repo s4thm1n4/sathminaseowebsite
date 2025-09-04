@@ -44,7 +44,7 @@ export const Hero: React.FC = () => {
             <div className="flex flex-col sm:flex-row gap-6 justify-center xl:hidden pt-4">
               <Button 
                 size="lg" 
-                onClick={() => window.open('https://wa.me/+94725221722', '_blank')}
+                onClick={() => window.open('https://docs.google.com/forms/d/e/1FAIpQLSf3bRteYzIlY1DcKMyTNW2iHnL2xZfAy1aQwLPNr_E4UVtDoA/viewform?usp=header', '_blank')}
                 className="flex items-center gap-3"
               >
                 🚀 Free SEO Masterplan
@@ -169,16 +169,17 @@ export const Hero: React.FC = () => {
             <div className="hidden xl:flex flex-col sm:flex-row gap-6 justify-center xl:justify-start pt-4">
               <Button 
                 size="lg" 
-                onClick={() => window.open('https://wa.me/+94725221722', '_blank')}
+                onClick={() => window.open('https://docs.google.com/forms/d/e/1FAIpQLSf3bRteYzIlY1DcKMyTNW2iHnL2xZfAy1aQwLPNr_E4UVtDoA/viewform?usp=header', '_blank')}
                 className="flex items-center gap-3"
               >
                 🚀 Free SEO Masterplan
               </Button>
+              <a href="#results">
               <Button variant="secondary" size="lg">
                 <span className="flex items-center gap-2">
                   📊 View My Results
                 </span>
-              </Button>
+              </Button></a>
             </div>
           </div>
 
