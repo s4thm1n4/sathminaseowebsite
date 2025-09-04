@@ -38,10 +38,10 @@ export default function RootLayout({
 }: {
   children: React.ReactNode
 }) {
-   return (
+  return (
     <html lang="en" className={inter.variable}>
       <Head>
-        {/* Google Analytics */}
+        {/* ✅ Google Analytics Script */}
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-73PG5VJ590"></script>
         <script
           dangerouslySetInnerHTML={{
@@ -60,5 +60,3 @@ export default function RootLayout({
     </html>
   )
 }
-
-
