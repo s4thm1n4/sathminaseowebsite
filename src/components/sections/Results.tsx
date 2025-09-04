@@ -155,7 +155,7 @@ export const Results: React.FC = () => {
           <h2 className="text-4xl md:text-6xl font-black mb-8">
             <span className="text-gradient bg-gradient-to-r from-orange-400 via-purple-500 to-orange-600">Explosive Growth Results</span>
             <br />
-            <span className="text-white">I've Delivered as Your SEO Specialist</span>
+            <span className="text-white">I&apos;ve Delivered as Your SEO Specialist</span>
           </h2>
           
           <div className="max-w-4xl mx-auto mb-12">
@@ -172,7 +172,7 @@ export const Results: React.FC = () => {
             </div>
             
             <p className="text-xl text-slate-300 leading-relaxed">
-              My passion for SEO started at <span className="text-orange-400 font-bold">15</span>, experimenting with a small Blogspot site. Today, I'm a dedicated SEO Specialist delivering <span className="text-orange-400 font-bold">explosive growth</span> for clients globally—from startups to established brands across <span className="text-purple-300 font-semibold">Sri Lanka, United States, Australia, France, UK, and Dubai</span>.
+              My passion for SEO started at <span className="text-orange-400 font-bold">15</span>, experimenting with a small Blogspot site. Today, I&apos;m a dedicated SEO Specialist delivering <span className="text-orange-400 font-bold">explosive growth</span> for clients globally—from startups to established brands across <span className="text-purple-300 font-semibold">Sri Lanka, United States, Australia, France, UK, and Dubai</span>.
             </p>
           </div>
         </div>
@@ -228,7 +228,7 @@ export const Results: React.FC = () => {
             <h3 className="text-3xl md:text-5xl font-black mb-6">
               <span className="text-gradient bg-gradient-to-r from-purple-400 to-orange-500">Actual Growth Results</span>
               <br />
-              <span className="text-white">I've Delivered for Real Clients</span>
+              <span className="text-white">I&apos;ve Delivered for Real Clients</span>
             </h3>
             
             <p className="text-xl text-slate-300 max-w-3xl mx-auto mb-8">
@@ -336,7 +336,7 @@ export const Results: React.FC = () => {
               <span className="text-gradient bg-gradient-to-r from-orange-400 to-purple-500">My Growth-Focused Expertise</span> - What You Get
             </h3>
             <p className="text-lg text-slate-300 max-w-3xl mx-auto">
-              Mastery in <span className="text-orange-400 font-semibold">competitive intelligence</span> and <span className="text-purple-400 font-semibold">growth analytics</span>. I dissect competitors' strategies through comprehensive analysis, developing bespoke SEO frameworks that position my clients for <span className="text-orange-400 font-semibold">explosive growth</span>.
+              Mastery in <span className="text-orange-400 font-semibold">competitive intelligence</span> and <span className="text-purple-400 font-semibold">growth analytics</span>. I dissect competitors&apos; strategies through comprehensive analysis, developing bespoke SEO frameworks that position my clients for <span className="text-orange-400 font-semibold">explosive growth</span>.
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -366,7 +366,7 @@ export const Results: React.FC = () => {
             </div>
             
             <p className="text-xl text-slate-300 mb-8 max-w-3xl mx-auto font-medium">
-              As a freelance <span className="text-orange-400 font-bold">Growth-Focused SEO Specialist</span> and Consultant, I'm privileged to support diverse clients worldwide. My mission is to help each business <span className="text-orange-400 font-bold">explode their digital footprint</span> and achieve <span className="text-purple-400 font-bold">significant returns</span> through customized, data-driven growth strategies.
+              As a freelance <span className="text-orange-400 font-bold">Growth-Focused SEO Specialist</span> and Consultant, I&apos;m privileged to support diverse clients worldwide. My mission is to help each business <span className="text-orange-400 font-bold">explode their digital footprint</span> and achieve <span className="text-purple-400 font-bold">significant returns</span> through customized, data-driven growth strategies.
             </p>
             
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-left mb-12">
@@ -399,10 +399,10 @@ export const Results: React.FC = () => {
             <div className="border-t border-white/10 pt-12">
               <div className="text-center mb-8">
                 <h4 className="text-2xl md:text-3xl font-black text-white mb-4">
-                  Let's Grow Your Business <span className="text-gradient bg-gradient-to-r from-orange-400 to-purple-500">Together!</span>
+                  Let&apos;s Grow Your Business <span className="text-gradient bg-gradient-to-r from-orange-400 to-purple-500">Together!</span>
                 </h4>
                 <p className="text-lg text-slate-300 max-w-2xl mx-auto">
-                  Ready to join the businesses experiencing <span className="text-orange-400 font-semibold">explosive SEO growth</span>? Let's discuss your project and create a customized growth strategy.
+                  Ready to join the businesses experiencing <span className="text-orange-400 font-semibold">explosive SEO growth</span>? Let&apos;s discuss your project and create a customized growth strategy.
                 </p>
               </div>
 
